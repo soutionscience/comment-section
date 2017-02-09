@@ -4,6 +4,9 @@ export class MainController {
 
 
   }
+    postMessage(){
+        console.log("post");
+    }
 
 
 }
