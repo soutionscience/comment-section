@@ -62,13 +62,6 @@ export class WebDevTecService {
         'url': 'https://babeljs.io/',
         'description': 'Turns ES6+ code into vanilla ES5, so you can use next generation features today.',
         'logo': 'babel.png'
-      },
-      {
-        'key': 'haml',
-        'title': 'HAML',
-        'url': 'http://haml.info/',
-        'description': 'Beautiful, DRY, well-indented, clear markup: templating haiku.',
-        'logo': 'haml.png'
       }
     ];
   }
