@@ -11,7 +11,8 @@
  import { CompareToDirective } from '../app/directives/compareTo.directive';
  import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive';
 
- angular.module('myMessageFront', ['ui.router', 'ui.bootstrap', 'toastr'])
+ angular.module('myMessageFront', ['ui.router', 'ui.bootstrap', 'toastr','satelizer'])
+   .constant('API-URL', 'http://localhost:5000/');
    .constant('malarkey', malarkey)
    .constant('moment', moment)
    .config(config)
