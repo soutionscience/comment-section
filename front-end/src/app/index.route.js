@@ -7,12 +7,12 @@ export function routerConfig($stateProvider, $urlRouterProvider) {
             controller: 'MainController',
             controllerAs: 'main'
         })
-        .state('auth', {
+     .state('auth', {
             url: '/auth',
             templateUrl: 'app/auth/auth.html',
             controller: 'AuthController',
             controllerAs: 'auth'
-        });
+       });
 
     $urlRouterProvider.otherwise('/');
 }
